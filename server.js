@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 // codemobile/print
 app.get('/codemobile/print', (req, res) => {
-    res.json("hey! sontaya");
+    res.json("hey! Today");
 });
 
 app.listen(PORT, HOST);
